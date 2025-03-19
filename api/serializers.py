@@ -13,4 +13,4 @@ class UserSerializer(serializers.ModelSerializer):
             user = User.objects.create_user(**validated_data)
             return user
 
-class ShortVideoSerializer(serializers.ModelSerializer )
+class ShortVideoSerializer(serializers.ModelSerializer)
